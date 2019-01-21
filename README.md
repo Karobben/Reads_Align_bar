@@ -51,5 +51,7 @@ align_map2.py -g [reference base] -b [sorted bam file] -i [Seq ID]
                         ATGGCCGAT,TGACCCACATTG
 
 Makr the posation with read bar:
+
 -m mark the posation by int (int)
+
 -ms mark hte posation by tag, exp : ATGGCCGAT,TGACCCACATTG
