@@ -23,21 +23,29 @@ align_map2.py -g [reference base] -b [sorted bam file] -i [Seq ID]
 
   -g BASE, -G BASE, --base BASE
                         Base fa // Trintiy.fa
+                        
   -b BAM, -B BAM, --bam BAM
                         sorted and idx by samtools' bam file
+                        
   -i NRIP, -I NRIP, --NrIP NRIP
                         Seq ID in Base file liske NM_001169584.2
+                        
   -p POSITION, -P POSITION, --position POSITION
                         postion on the reference Seq (int),default = 1
+                        
   -e ENDPOSITION, -E ENDPOSITION, --endposition ENDPOSITION
                         It's useless here
+                        
   -o OUTPUT, -O OUTPUT, --output OUTPUT
                         Name of output file, exp: output.png // output.pdf,
                         default = output.pdf
+                        
   -c CHSIZE, -C CHSIZE, --chsize CHSIZE
                         The size of the chart, default = 200,20
+                        
   -m MARK, -M MARK, --mark MARK
                         Extral mark on the chart by int posation, exp: 20,100
+
   -ms MARKSEQ, -MS MARKSEQ, --markseq MARKSEQ
                         Extral mark on the chart by special tag, exp:
                         ATGGCCGAT,TGACCCACATTG
